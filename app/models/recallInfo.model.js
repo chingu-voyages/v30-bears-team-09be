@@ -12,8 +12,8 @@ module.exports = (sequelize, Sequelize) => {
         vehicleOrEquipmentModel: {
             type: Sequelize.STRING(256)
         },
-        p: {
-            type: Sequelize.STRING()
+        vehicleModelYear: {
+            type: Sequelize.STRING(4)
         },
         p: {
             type: Sequelize.STRING()
